@@ -1,0 +1,38 @@
+[
+  {
+    "id": "job_interview",
+    "title": "Job Interview",
+    "prompt": "You are in a job interview. The interviewer says: Tell me a little about yourself and why you want this role.",
+    "objective": "Introduce yourself and give a reason for applying"
+  },
+  {
+    "id": "cafe_order",
+    "title": "Café Order",
+    "prompt": "You walk into a coffee shop. The barista says: Hi there, what can I get for you today?",
+    "objective": "Successfully order a drink and ask for the price"
+  },
+  {
+    "id": "travel_checkin",
+    "title": "Airport Check-In",
+    "prompt": "You are at an airport check-in desk. The agent says: Good morning, can I see your passport and booking reference?",
+    "objective": "Check in for your flight and ask about your seat"
+  },
+  {
+    "id": "team_standup",
+    "title": "Team Standup",
+    "prompt": "You are in a work meeting. Your manager says: Okay, your turn — what did you work on yesterday and what are you doing today?",
+    "objective": "Give a clear standup update with yesterday and today's work"
+  },
+  {
+    "id": "casual_intro",
+    "title": "Meeting Someone New",
+    "prompt": "You are at a networking event. Someone walks up and says: Hey, I don't think we've met — I'm Alex. What brings you here?",
+    "objective": "Introduce yourself and start a short conversation"
+  },
+  {
+    "id": "complaint",
+    "title": "Making a Complaint",
+    "prompt": "You are at a hotel front desk. You say to the receptionist that your room has a problem. The receptionist replies: I'm sorry to hear that. Can you describe the issue?",
+    "objective": "Clearly explain the problem and request a solution"
+  }
+]

@@ -1,0 +1,8 @@
+streamlit>=1.32.0
+faster-whisper>=1.0.0
+openai>=1.30.0
+psycopg2-binary>=2.9.9
+python-dotenv>=1.0.0
+plotly>=5.20.0
+streamlit-mic-recorder>=0.0.9
+difflib
