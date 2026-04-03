@@ -53,3 +53,13 @@ streamlit run app.py
 - Do not add authentication logic — out of scope for MVP
 - Do not use asyncio or WebSocket streaming — out of scope for MVP
 - Do not add files outside the existing folder structure without asking
+
+## turn_analysis dict contract
+The LLM must return a structured JSON object with these keys for each turn:
+- grammar_errors: dict[str, int]  # keys: "tense", "article", "preposition", "subject_verb"
+- vocabulary_flags: list[str]     # words used incorrectly or avoided
+- filler_words: int               # count of: um, uh, like, you know, actually
+- word_count: int                 # total words in the learner's turn
+- is_complete_sentence: bool      # whether the turn formed a complete sentence
+- task_completed: bool            # whether the scenario objective was met
+All keys are optional; missing keys default to safe zero values.
